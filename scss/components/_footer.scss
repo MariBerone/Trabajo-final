@@ -1,0 +1,66 @@
+/*Estilo del Footer*/
+
+@import '../base/extend';
+
+footer{
+    background-color: rgb(22, 33, 62);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 200px;
+    .descrip-1{
+        .descripcion{
+            font-size: 20px;
+            color: rgb(238, 242, 230);
+            font-style: unset;
+            margin-top: 15px;
+            padding-left: 10px;
+        }
+        .redes{
+            padding: 10px;
+            .instagram{
+                height: 50px;
+            }
+            .facebook{
+                height: 50px;
+            }
+        }
+    }      
+    .info-empresa{
+        padding: 20px;
+        .info{
+            @extend %estilofooter;
+        }
+        .ubicacion{
+            @extend %flex;
+            img{
+                @extend %tamañoimgfooter;
+            } 
+            p{
+               @extend %estilofooter;
+            }   
+            }    
+        .cel{
+            @extend %flex;
+            img{
+                @extend %tamañoimgfooter;
+            }
+            a{
+                text-decoration: none;
+                color: rgb(238, 242, 230);
+            }    
+            }
+        .email{
+            @extend %flex;
+            img{
+                @extend %tamañoimgfooter;
+            }
+            a{
+                text-decoration: none;
+            }
+            p{
+                @extend %estilofooter; 
+            }
+        }
+    }
+}

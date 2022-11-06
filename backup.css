@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-nav{
+    background-color: rgb(177, 215, 180);
+    color: rgb(255, 192, 144);
+    font-size: 30px;
+    font-style: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(251, 242, 207);
+}
+
+.navbar a:hover{
+   color: rgb(28, 103, 88);
+   transform: scale(1.2);
+   transition: all 2s;
+}
+
+.img-logo{
+    width: 100px;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.main-conteiner{
+    background-image: url(imagen/Ingresos.png);
+    opacity: 0.8;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-what{
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.parrafo-uno{
+    font-size: 50px;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(252, 249, 198);
+    font-weight: bold;
+    padding-top: 150px
+}
+
+.boton{
+    font-size: 30px;
+    font-style: inherit;
+    text-align: center;
+    color: rgb(252, 249, 198);
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.boton:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+}
+
+strong{
+    background-color: blue;
+}
+
+@media only screen and (max-width: 450px){
+    .main-conteiner{
+    width: 100%;
+    }
+    .parrafo-uno{
+        font-size: 20px;
+    }
+    .asesorate{
+       font-size: 15px;
+       padding-top: 50px;
+    }
+    .img-what{
+        width: 50px;
+    }
+    .descripcion{
+        font-size: 8px;
+    }
+    .info p{
+        font-size: 5px;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    .main-conteiner{
+        width: 100%;
+        }
+        .parrafo-uno{
+            font-size: 35px;
+        }
+        .boton{
+           font-size: 25px;
+        }
+        .img-what{
+         width: 60px;
+         bottom: 20px;
+         right: 10px;
+        }
+        .descripcion{
+            font-size: 12px;
+        }
+        .info p{
+            font-size: 8px;
+        }
+}
+
+footer{
+    background-color: rgb(22, 33, 62);
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram{
+    height: 50px;
+}
+.facebook{
+    height: 50px;
+}
+
+.descripcion{
+    font-size: 20px;
+    color: rgb(238, 242, 230);
+    font-style: unset;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.redes{
+    padding: 10px ;
+
+}
+.info-empresa{
+    padding: 20px;
+}
+.info p{
+    color: rgb(238, 242, 230);
+    font-size: 12px;
+    font-style: unset;
+}
+.info a{
+    text-decoration: none;
+}
+.info img{
+    height: 20px;
+    width: 20px;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.cel{
+    display: flex;
+    flex-direction: row;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilo de todos mis h1*/
+
+h1{
+    font-size: 40px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1:hover{
+    transform: scale(2);
+    transition: all 2s;
+    color: rgb(27, 36, 48);
+}
+/* Estilo al reto de los body*/
+
+body{
+    background-color: aliceblue;
+}
+
+/*contenido del body de "LOTES"*/
+
+.p-lote {
+    font-size: 25px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.p-lote1{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 3px;
+}
+
+.p-lote2{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.descripcion-lote{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imglotes{
+    width: 500px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.detalle{
+    padding-top: 40px;
+    padding-left: 80px;
+    list-style: none;
+}
+
+.pinche{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.info{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 20px;
+}
+
+.p-4{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    font-weight: bold;
+    padding-left: 180px;
+}
+
+.mapa{
+    width: 300px;
+    height: 190px;
+    padding-left: 100px;
+}
+
+.p-5{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*contenido del body de "AMENITIES"*/
+
+.p-amenities{
+    font-size: 40px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-amenities{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 50px 30px;
+}
+
+.gimnasio{
+    margin-top: 11px;
+    text-align: center;
+}
+.gimnasio img{
+    width: 250px;
+} 
+.gimnasio h2{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+.gimnasio p{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+
+.pileta{
+    text-align: center;
+}
+.pileta img{
+    width: 190px;
+}
+.pileta h2{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+.pileta p{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+
+.seguridad{
+    text-align: center;
+}
+.seguridad img{
+    width: 155px;
+}
+.seguridad h2{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+.seguridad p{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+
+.campo{
+    text-align: center;
+}
+.campo img{
+    width: 180px;
+}
+.campo h2{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+.campo p{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+
+.panel{
+    text-align: center;
+}
+.panel img{
+    width: 180px;
+}
+.panel h2{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+.panel p{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+
+.espacios{
+    text-align: center;
+}
+.espacios img{
+    width: 200px;
+}
+.espacios h2{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+.espacios p{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+}
+
+@media only screen and (max-width: 450px){
+    .section-amenities{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .p-amenities{
+        font-size: 25px;
+    }
+    .gimnasio p{
+        font-size: 15px;
+    }
+    .gimnasio h2{
+        font-size: 20px;
+    }
+    .pileta h2{
+        font-size:20px ;
+    }
+    .pileta p{
+        font-size: 15px;
+    }
+    .seguridad h2{
+        font-size: 20px;
+    }
+    .seguridad p{
+        font-size: 15px;
+    }
+    .campo h2{
+        font-size: 20px;
+    }
+    .campo p{
+        font-size: 15px;
+    }
+    .panel h2{
+        font-size: 20px;
+    }
+    .panel p{
+        font-size: 15px;
+    }
+    .espacios h2{
+        font-size: 20px;
+    }
+    .espacios p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+       .section-amenities{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-auto-rows: 300px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        .p-amenities{
+            font-size: 30px;
+        }
+        .gimnasio p{
+            font-size: 20px;
+        }
+        
+        .gimnasio h2{
+            font-size: 25px;
+        }
+        .pileta h2{
+            font-size:25px ;
+        }
+        .pileta p{
+            font-size: 20px;
+        }
+        .seguridad h2{
+            font-size: 25px;
+        }
+        .seguridad p{
+            font-size: 20px;
+        }
+        .campo h2{
+            font-size: 25px;
+        }
+        .campo p{
+            font-size: 20px;
+        }
+        .panel h2{
+            font-size: 25px;
+        }
+        .panel p{
+            font-size: 20px;
+        }
+        .espacios h2{
+            font-size: 25px;
+        }
+        .espacios p{
+            font-size: 20px;
+        }
+}
+
+/*contenido del body de "GALERIA"*/
+
+.p-galeria{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    padding-top: 5px;
+}
+
+.img-galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    gap: 20px;
+    padding: 50px 30px;
+    
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+    -moz-box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+    box-shadow: -8px 7px 11px -1px rgba(0,0,0,0.47);
+}
+
+@media only screen and (max-width: 450px){
+    .img-galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+    }
+    .p-galeria{
+        font-size: 20px;
+    }
+    .foto{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    .img-galeria{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        }
+    .p-galeria{
+        font-size: 25px;
+        }
+    .foto{
+        grid-column: span 1;
+        grid-row: span 1;
+        }
+    h1{
+        font-size: 25px;
+        }
+}
+
+/*contenido del body de "CONTACTO"*/
+
+.p-contacto{
+    font-size: 30px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p2-contacto{
+    font-size: 17px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-top: 100px;
+    padding-left: 40px;
+    font-weight: bold;
+
+}
+
+.p3-contacto{
+    font-size: 20px;
+    font-style: inherit;
+    color: rgb(15, 52, 96);
+    padding-left: 80px;
+    padding-top: 7px;
+    padding-bottom: 130px;
+}
