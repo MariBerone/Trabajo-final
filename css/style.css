@@ -139,7 +139,7 @@ h1:hover {
   border-radius: 4px;
   color: rgb(155, 161, 123);
   padding: 6px;
-  margin: 50px;
+  margin-top: 80px;
   position: relative;
 }
 .main-conteiner .img-what {
@@ -417,7 +417,7 @@ main .form-registro .controls-1 {
   font-size: 17px;
 }
 main .form-registro .botons {
-  width: 22%;
+  width: 25%;
   background: rgb(247, 246, 220);
   border: none;
   padding: 6px;
